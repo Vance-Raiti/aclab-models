@@ -1,0 +1,1488 @@
+[2023-06-11 11:35:51,089] torch._inductor.utils: [WARNING] using triton random, expect difference from eager
+//usr/usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibcuda.so/ libcuda.sowhen  whensearching  searchingfor  for- lcuda-
+lcuda/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibgcc_s.so.1/ libgcc_s.so.1when  whensearching  searchingfor  forlibgcc_s.so.1 
+libgcc_s.so.1/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.so/ libc.sowhen  whensearching  searchingfor  for- lc-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.a/ libc.awhen  whensearching  searchingfor  for- lc-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibgcc_s.so.1/ libgcc_s.so.1when  whensearching  searchingfor  forlibgcc_s.so.1 
+libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin//ld:usr /skippingbin /incompatibleld :/ usrskipping/ libincompatible/ libc.a/ usrwhen/ libsearching/ libcuda.sofor  when- lcsearching
+ /forusr /-binlcuda/
+ld/:usr /skippingbin /incompatibleld :/ usrskipping/ libincompatible/ libgcc_s.so.1/ usrwhen/ libsearching/ libgcc_s.so.1for  whenlibgcc_s.so.1 
+searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibcuda.so/ libcuda.sowhen  whensearching  searchingfor  for- lcuda-
+lcuda/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibgcc_s.so.1/ libgcc_s.so.1when  whensearching  searchingfor  forlibgcc_s.so.1 
+libgcc_s.so.1/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.so/ libc.sowhen  whensearching  searchingfor  for- lc-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.a/ libc.awhen  whensearching  searchingfor  for- lc-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibgcc_s.so.1/ libgcc_s.so.1when  whensearching  searchingfor  forlibgcc_s.so.1 
+libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so/ whenusr /searchingbin /forld :- lcudaskipping
+ /incompatibleusr //binusr//ldlib:/ libcuda.soskipping  whenincompatible  searching for -lcuda
+//usrusr//libbin//libgcc_s.so.1ld :when  skippingsearching  incompatiblefor  /libgcc_s.so.1usr
+//libusr//libgcc_s.so.1bin /whenld:  searchingskipping  forincompatible  libgcc_s.so.1/
+usr//usrlib//binlibc.so/ ldwhen:  searchingskipping  forincompatible  -/lcusr
+//libusr//libc.sobin when/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+ searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin//ld:usr /skippingbin /incompatibleld :/ usrskipping/ libincompatible/ libc.so/ usr/lib/whenlibcuda.so  searchingwhen  forsearching  -forlc 
+-/lcudausr
+//binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libc.alib /whenlibgcc_s.so.1 searching for - lcwhen
+ /searchingusr /forbin /libgcc_s.so.1ld
+:/ usrskipping/ binincompatible/ ld/:usr /skippinglib /incompatiblelibgcc_s.so.1  /whenusr /searchinglib /forlibc.so  libgcc_s.so.1when
+ searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/train.py", line 59, in <module>
+    trainer_object.train(progress_bar=False)
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/trainer.py", line 212, in train
+    run_epoch('train')
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/trainer.py", line 141, in run_epoch
+    for it, dat in pbar:
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 32, in fetch
+    data.append(next(self.dataset_iter))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/bigwig_dataset.py", line 167, in bigwig_dataset_generator
+    for interval in sequence_bed[start:stop]:
+  File "pybedtools/cbedtools.pyx", line 793, in pybedtools.cbedtools.IntervalIterator.__next__
+  File "pybedtools/cbedtools.pyx", line 657, in pybedtools.cbedtools.create_interval_from_list
+IndexError: list index out of range
+[2023-06-11 19:20:41,611] torch._inductor.utils: [WARNING] using triton random, expect difference from eager
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld/: skipping incompatible /usr/lib/libcuda.sousr when /searchingbin/ ldfor :-lcuda
+ /skipping usrincompatible/bin //usrld/: libskipping/libcuda.so  incompatible /whenusr searching/ libfor/libgcc_s.so.1  -when lcudasearching
+/ usrfor /libgcc_s.so.1bin/ld
+:/ skippingusr /incompatiblebin //usrld/:lib /skipping libgcc_s.so.1incompatible  /whenusr /searching libfor/ libc.solibgcc_s.so.1
+ /whenusr /binsearching/ forld -:lc skipping
+ /usrincompatible/ /binusr/ld/:lib /skipping libc.soincompatible  when/usr/ libsearching/ libc.a forwhen  -searchinglc
+ /for usr-/lcbin
+//usrld/:bin/ld :skipping  incompatibleskipping  incompatible/ usr//libusr/libc.a/ lib/whenlibgcc_s.so.1  searching whenfor  searching- forlc 
+/libgcc_s.so.1usr
+/bin//ld: skipping incompatible /usr/lib/libgcc_s.so.1 whenusr /searchingbin /forld :libgcc_s.so.1 
+skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libcuda.solib /whenlibcuda.so  searchingwhen  forsearching  -forlcuda
+ /-usrlcuda/
+bin//usrld/:bin /skippingld :incompatible  skipping/ usrincompatible/ lib//usrlibgcc_s.so.1/ libwhen/ libgcc_s.so.1searching  whenfor  searchinglibgcc_s.so.1 
+for/ usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/bin/ld: skippingusr /incompatiblebin //ldusr:/ libskipping/ libcuda.soincompatible  when/ usrsearching/ libfor/ libcuda.so- lcudawhen
+ /searchingusr /forbin /-ldlcuda:
+ /skippingusr /incompatiblebin //ldusr:/ libskipping/ libgcc_s.so.1incompatible  when/ usrsearching/ libfor/ libgcc_s.so.1libgcc_s.so.1 
+when/ usrsearching/ binfor/ ldlibgcc_s.so.1:
+ /skippingusr /incompatiblebin //ldusr:/ libskipping/ libc.soincompatible  when/ usrsearching/ libfor/ libc.so- lcwhen
+ /searchingusr /forbin /-ldlc:
+ /skippingusr /incompatiblebin //ldusr:/ libskipping/ libc.aincompatible  when/ usrsearching/ libfor/ libc.a- lcwhen
+ /searchingusr /forbin /-ldlc:
+ /skippingusr /incompatiblebin //ldusr:/ libskipping/ libgcc_s.so.1incompatible  when/ usrsearching/ libfor/ libgcc_s.so.1libgcc_s.so.1 
+when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libcuda.solibcuda.so  whenwhen  searchingsearching  forfor  --lcudalcuda
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libgcc_s.so.1  whenwhen  searchingsearching  forfor  libgcc_s.so.1libgcc_s.so.1
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libc.solibc.so  whenwhen  searchingsearching  forfor  --lclc
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//lib/libc.a when /searching forusr lib/-/binlclibc.a/
+ ld/when:usr  /searchingskippingbin  /forincompatibleld  :-/ lcusrskipping
+/ /libincompatibleusr/ /libcuda.so/bin usr/when/ld lib:searching/  libgcc_s.so.1skippingfor   whenincompatible-  lcudasearching/
+ usr/for/usr lib/libgcc_s.so.1/bin
+libgcc_s.so.1/ ldwhen:  searchingskipping  forincompatible  libgcc_s.so.1/
+usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible //usr/lib/libcuda.so whenusr /searchingbin /forld :- lcudaskipping
+ /incompatibleusr //binusr//ldlib:/ libcuda.soskipping  whenincompatible  searching/ usrfor/ lib-/lcudalibgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 
+skipping/ usrincompatible/ bin//usrld/:lib /skippinglibgcc_s.so.1  incompatiblewhen  /searchingusr /forlib /libgcc_s.so.1libc.so
+ /whenusr /searchingbin /forld :- lcskipping
+ /incompatibleusr //binusr//ldlib:/ libc.soskipping  whenincompatible  searching/ usrfor/ lib-/lclibc.a
+ /whenusr /searchingbin /forld :- lcskipping
+ /incompatibleusr //binusr//ldlib:/ libc.askipping  whenincompatible  searching/ usrfor/ lib-/lclibgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 
+skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/train.py", line 2, in <module>
+    import model
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/model.py", line 5, in <module>
+    import dnaset.bigwig_dataset as bigwig_dataset
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/__init__.py", line 2, in <module>
+    import dnaset.bigwig_dataset
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/bigwig_dataset.py", line 13, in <module>
+    from rbedtool import RBedTool
+ModuleNotFoundError: No module named 'rbedtool'
+[2023-06-11 19:53:37,143] torch._inductor.utils: [WARNING] using triton random, expect difference from eager
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libcuda.solibcuda.so  whenwhen  searchingsearching  forfor  --lcudalcuda
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libgcc_s.so.1  whenwhen  searchingsearching  forfor  libgcc_s.so.1libgcc_s.so.1
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libc.solibc.so  whenwhen  searchingsearching  forfor  --lclc
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libc.alibc.a  whenwhen  searchingsearching  forfor  --lclc
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib/libgcc_s.so.1 when/ libgcc_s.so.1searching  whenfor  searchinglibgcc_s.so.1 
+for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible //usr/lib/usrlibcuda.so/ binwhen/ ldsearching:  forskipping  -incompatiblelcuda 
+//usrusr//libbin//libcuda.sold :when  skippingsearching  incompatiblefor  /-usrlcuda/
+lib//usrlibgcc_s.so.1/ binwhen/ ldsearching:  forskipping  libgcc_s.so.1incompatible
+ //usrusr//binlib//ldlibgcc_s.so.1:  whenskipping  searchingincompatible  for/ usrlibgcc_s.so.1/
+lib//usrlibc.so/ binwhen/ ldsearching:  forskipping  -incompatiblelc 
+//usrusr//libbin//libc.sold :when  skippingsearching  incompatiblefor  /-usrlc/
+lib//usrlibc.a/ binwhen/ ldsearching:  forskipping  -incompatiblelc 
+//usrusr//libbin//libc.ald :when  skippingsearching  incompatiblefor  /-usrlc/
+lib//usrlibgcc_s.so.1/ binwhen/ ldsearching:  forskipping  libgcc_s.so.1incompatible
+ /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/binusr//ldbin:/ld :skipping  skippingincompatible  incompatible// usr//usrusrlib///binliblibcuda.so// when ldsearching for :- lcudaskipping
+ /incompatibleusr //binusr//ldlib:/ libcuda.soskipping  whenincompatible  searching/ usrfor/ lib-/lcudalibgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 
+skipping/ usrincompatible/ bin//usrld/:lib /skippinglibgcc_s.so.1  incompatiblewhen  /searchingusr /forlib /libgcc_s.so.1libc.so
+ /whenusr /searchingbin /forld :- lcskipping
+ /incompatibleusr //binusr//ldlib:/ libc.soskipping  whenincompatible  searching/ usrfor/ lib-/lclibc.a
+ /whenusr /searchingbin /forld :- lcskipping
+ /incompatibleusr //binusr//ldlib:/ libc.askipping  whenincompatible  searching/ usrfor/ lib-/lclibgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 skipping libcuda.soincompatible /usr /whenlib /searchinglibgcc_s.so.1  forwhen  -searchinglcuda 
+for/ usrlibgcc_s.so.1/
+bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: /skipping incompatibleusr //binusr//ldlib:/ libcuda.soskipping  whenincompatible  searching/ usrfor/ lib-/lcudalibcuda.so
+ /whenusr /searchingbin /forld :- lcudaskipping
+ /incompatibleusr //binusr//ldlib:/ libgcc_s.so.1skipping  when incompatiblesearching  /forusr /libgcc_s.so.1lib
+//libgcc_s.so.1usr /whenbin /searchingld :for  skippinglibgcc_s.so.1 
+incompatible/ usr//usrbin//libld/:libc.so  skippingwhen  incompatiblesearching  /forusr /-liblc/
+libc.so/ usrwhen/ binsearching/ ldfor:  -skippinglc 
+incompatible/ usr//usrbin//libld/: skipping incompatible libc.a/ usrwhen/ libsearching/ libc.afor  when- lcsearching
+ /forusr /-binlc/
+ld/:usr /skippingbin /incompatibleld :/ skipping incompatible /usr/lib/libgcc_s.so.1 usrwhen/ libsearching/ libgcc_s.so.1for  whenlibgcc_s.so.1 
+searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/rbedtool.py", line 9, in __init__
+    self.stop = int(a[2])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/train.py", line 64, in <module>
+    trainer_object.train(progress_bar=False)
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/trainer.py", line 212, in train
+    run_epoch('train')
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/trainer.py", line 141, in run_epoch
+    for it, dat in pbar:
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 32, in fetch
+    data.append(next(self.dataset_iter))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/bigwig_dataset.py", line 185, in bigwig_dataset_generator
+    for interval in sequence_bed.slice(start,stop):
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/rbedtool.py", line 130, in __next__
+    ret = rbedtool[self.line]
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/rbedtool.py", line 60, in __getitem__
+    return BedFrame(fp.readline())
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/rbedtool.py", line 11, in __init__
+    raise ValueError(f"There was an issue while trying to parse BedFrame input ('{s}')")
+ValueError: There was an issue while trying to parse BedFrame input ('2	6767504
+')
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/train.py", line 2, in <module>
+    import model
+  File "/projectnb/aclab/vraiti/nn/basic_transformer/model.py", line 5, in <module>
+    import dnaset.bigwig_dataset as bigwig_dataset
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/__init__.py", line 2, in <module>
+    import dnaset.bigwig_dataset
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/dnaset/bigwig_dataset.py", line 12, in <module>
+    import util
+ModuleNotFoundError: No module named 'util'
+[2023-06-12 14:13:03,950] torch._inductor.utils: [WARNING] using triton random, expect difference from eager
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/bin/ld: skipping incompatible /usr/lib/usrlibcuda.so/ binwhen/ ldsearching:  forskipping  -incompatiblelcuda 
+//usrusr//libbin//libcuda.sold :when  skippingsearching  incompatiblefor  /-usrlcuda/
+lib//usrlibgcc_s.so.1/ binwhen/ ldsearching:  forskipping  libgcc_s.so.1incompatible
+ //usrusr//binlib///libgcc_s.so.1 when searching for libgcc_s.so.1
+/usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libcuda.solibc.so when  when searchingsearching  forfor - lcuda-
+/usr/bin/ld:lc 
+skipping/usr/bin/ ldincompatible: skipping incompatible  //usr/usrlib//libc.a whenlib /searching for -lc
+/usr/libgcc_s.so.1bin when searching /forld : libgcc_s.so.1skipping
+ incompatible/ usr/bin//usrld: skipping/ libincompatible //usrlibgcc_s.so.1/lib/ libc.sowhen when searching for  searching- lcfor
+/ usrlibgcc_s.so.1/bin/ld: 
+skipping incompatible /usr/lib/libc.a when searching/ for -lc
+/usrusr//binbin//ld:ld : skippingskipping  incompatibleincompatible  //usrusr//liblib//libcuda.solibgcc_s.so.1  whenwhen  searchingsearching  forfor  -lcudalibgcc_s.so.1
+
+/usr/ldbin/ld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libc.so  whenwhen  searchingsearching  forfor  libgcc_s.so.1-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.so/ libc.awhen  whensearching  searchingfor  for- lc-
+lc/
+usr//usrbin//binld/:ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibc.a/ libgcc_s.so.1when  whensearching  searchingfor  for- lclibgcc_s.so.1
+
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/bin/ld:usr /skippingbin /incompatibleld :/ usrskipping/ libincompatible/ libcuda.so/ usrwhen/ libsearching/ libcuda.sofor  when- lcudasearching
+ /forusr /-binlcuda/
+ld/:usr /skippingbin /incompatibleld :/ usrskipping/ incompatible lib/usr/lib//libgcc_s.so.1 libgcc_s.so.1when when  searchingsearching  forfor libgcc_s.so.1 
+libgcc_s.so.1
+/usr//binusr//ldbin:/ld :skipping  skippingincompatible  incompatible/ usr//usrlib/lib///libc.solibc.so when  usrwhensearching/  binforsearching/  ld-for:lc  
+-skipping/lc usr
+incompatible// bin/usr/usr/ld/bin:lib //skippingldlibcuda.so :  incompatiblewhen skipping / searchingusr incompatible//for lib usr//-/usrlibc.alcudabin/ 
+/libwhen/ld/ usr:libc.asearching/   binskippingwhenfor/   ldincompatiblesearching-:  lc /for
+skippingusr / /-usrincompatibleliblc/ /
+bin/libcuda.so//usr usrld/when/: libskipping/ libgcc_s.so.1 incompatiblewhen / usrsearching/ libfor/ libgcc_s.so.1libgcc_s.so.1
+ /whenusr/bin /searchingld for: libgcc_s.so.1 
+skipping  incompatible /searchingusr for /-lib/libc.so when searching lcudafor
+ /usr/-lcbin/
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+binld/ld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libgcc_s.so.1  whenwhen  searchingsearching  forfor  libgcc_s.so.1libgcc_s.so.1
+
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usr/binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libcuda.solib /whenlibcuda.so  searchingwhen  forsearching  -forlcuda 
+-/lcudausr
+//binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libgcc_s.so.1lib /whenlibgcc_s.so.1  searchingwhen  forsearching  libgcc_s.so.1for
+ /libgcc_s.so.1usr
+//binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libc.solib /whenlibc.so  searchingwhen  forsearching  -forlc 
+-/lcusr
+//binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libc.alib /whenlibc.a  searchingwhen  forsearching  -forlc 
+-/lcusr
+//binusr//ldbin:/ ldskipping:  incompatibleskipping  /incompatibleusr //libusr//libgcc_s.so.1lib /whenlibgcc_s.so.1  searchingwhen  forsearching  libgcc_s.so.1for
+ libgcc_s.so.1
+/usr/bin/ld: /skipping usrincompatible/ bin//usrld/:lib /skippinglibcuda.so  incompatiblewhen  /searchingusr /forlib /-libcuda.solcuda 
+when/ usrsearching/ binfor/ ld-:lcuda 
+skipping/ usrincompatible/ bin//usrld/:lib /skippinglibgcc_s.so.1  incompatiblewhen  /searchingusr /forlib /libgcc_s.so.1libgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld:/ skipping usrincompatible/ bin//usrld/:lib /skippinglibgcc_s.so.1  incompatiblewhen  /searchingusr /forlib /libgcc_s.so.1libcuda.so
+ /whenusr /searchingbin /forld :- lcudaskipping
+ /incompatibleusr //binusr//ldlib:/ libc.soskipping  whenincompatible  searching/ usrfor/ lib-/lclibgcc_s.so.1
+ /whenusr /searchingbin /forld :libgcc_s.so.1 
+skipping/ usrincompatible/ bin//usrld/:lib /skippinglibc.a  incompatiblewhen  /searchingusr /forlib /-libc.solc 
+when/ usrsearching/ binfor/ ld-:lc 
+skipping/ usrincompatible/ bin//usrld/:lib /skipping incompatible /libgcc_s.so.1usr /whenlib/libc.a  whensearching  for searchinglibgcc_s.so.1 for
+ -lc
+/usrskipping/bin/ incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+ld/:usr/bin/ld :skipping  skippingincompatible  incompatible/ usr//usrlib//liblibgcc_s.so.1/ libcuda.sowhen  whensearching  searchingfor  forlibgcc_s.so.1 
+-lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libcuda.solibcuda.so  whenwhen  searchingsearching  forfor  --lcudalcuda
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libgcc_s.so.1  whenwhen  searchingsearching  forfor  libgcc_s.so.1libgcc_s.so.1
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libc.solibc.so  whenwhen  searchingsearching  forfor  --lclc
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libc.alibc.a  whenwhen  searchingsearching  forfor  --lclc
+
+//usrusr//binbin//ldld::  skippingskipping  incompatibleincompatible  //usrusr//liblib//libgcc_s.so.1libgcc_s.so.1  whenwhen  searchingsearching  forfor/ libgcc_s.so.1
+usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+ libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+[2023-06-12 17:54:00,540] torch._inductor.utils: [WARNING] using triton random, expect difference from eager
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libcuda.so when searching for -lcuda
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1
+/usr/bin/ld: skipping incompatible /usr/lib/libc.so when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libc.a when searching for -lc
+/usr/bin/ld: skipping incompatible /usr/lib/libgcc_s.so.1 when searching for libgcc_s.so.1

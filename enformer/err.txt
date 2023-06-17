@@ -1,0 +1,166 @@
+2023-06-17 15:24:22.520065: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2023-06-17 15:24:22.575820: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-06-17 15:24:23.598731: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-06-17 15:24:24.898915: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1956] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-06-17 15:24:30.217482: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [133]
+	 [[{{node Placeholder/_0}}]]
+2023-06-17 15:24:30.217666: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype string and shape [133]
+	 [[{{node Placeholder/_0}}]]
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 1199, in run_node
+    return nnmodule(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/nn/functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_decomp/decompositions.py", line 1444, in native_batch_norm_decomposition
+    return aten._native_batch_norm_legit(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_ops.py", line 502, in __call__
+    return self._op(*args, **kwargs or {})
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_stats.py", line 20, in wrapper
+    return fn(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 987, in __torch_dispatch__
+    return self.dispatch(func, types, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 1140, in dispatch
+    return decomposition_table[func](*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_decomp/decompositions.py", line 1472, in _native_batch_norm_legit
+    output, save_mean, save_rstd, _, _ = native_batch_norm_helper(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_decomp/decompositions.py", line 1339, in native_batch_norm_helper
+    new_running_mean = momentum * save_mean + (1 - momentum) * running_mean
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_stats.py", line 20, in wrapper
+    return fn(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 987, in __torch_dispatch__
+    return self.dispatch(func, types, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 1177, in dispatch
+    return self.wrap_meta_outputs_with_default_device_logic(r, func, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 1233, in wrap_meta_outputs_with_default_device_logic
+    return tree_map(partial(wrap), r)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_pytree.py", line 196, in tree_map
+    return tree_unflatten([fn(i) for i in flat_args], spec)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_pytree.py", line 196, in <listcomp>
+    return tree_unflatten([fn(i) for i in flat_args], spec)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 1254, in wrap
+    ) = FakeTensor._find_common_device(func, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 924, in _find_common_device
+    tree_map(merge_devices, args)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_pytree.py", line 196, in tree_map
+    return tree_unflatten([fn(i) for i in flat_args], spec)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/utils/_pytree.py", line 196, in <listcomp>
+    return tree_unflatten([fn(i) for i in flat_args], spec)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 920, in merge_devices
+    raise RuntimeError(
+RuntimeError: Unhandled FakeTensor Device Propagation for aten.add.Tensor, found two different devices cpu, cuda:0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 1152, in get_fake_value
+    return wrap_fake_exception(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 808, in wrap_fake_exception
+    return fn()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 1153, in <lambda>
+    lambda: run_node(tx.output, node, args, kwargs, nnmodule)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 1206, in run_node
+    raise RuntimeError(
+RuntimeError: Failed running call_module self_stem_1_fn_0(*(FakeTensor(FakeTensor(..., device='meta', size=(1, 768, 114688),
+           grad_fn=<ConvolutionBackward0>), cpu),), **{}):
+Unhandled FakeTensor Device Propagation for aten.add.Tensor, found two different devices cpu, cuda:0
+(scroll up for backtrace)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/projectnb/aclab/vraiti/models/enformer/train.py", line 54, in <module>
+    ret = pred(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 82, in forward
+    return self.dynamo_ctx(self._orig_mod.forward)(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 209, in _fn
+    return fn(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/pckg/enformer-pytorch/enformer_pytorch/modeling_enformer.py", line 418, in forward
+    x = str_to_one_hot(x)
+  File "/projectnb/aclab/vraiti/pckg/enformer-pytorch/enformer_pytorch/modeling_enformer.py", line 432, in <graph break in forward>
+    x = trunk_fn(x)
+  File "/projectnb/aclab/vraiti/pckg/enformer-pytorch/enformer_pytorch/modeling_enformer.py", line 398, in trunk_checkpointed
+    x = rearrange(x, 'b n d -> b d n')
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 337, in catch_errors
+    return callback(frame, cache_size, hooks)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 404, in _convert_frame
+    result = inner_convert(frame, cache_size, hooks)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 104, in _fn
+    return fn(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 262, in _convert_frame_assert
+    return _compile(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 163, in time_wrapper
+    r = func(*args, **kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 324, in _compile
+    out_code = transform_code_object(code, transform)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/bytecode_transformation.py", line 445, in transform_code_object
+    transformations(instructions, code_options)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 311, in transform
+    tracer.run()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1726, in run
+    super().run()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 576, in run
+    and self.step()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 540, in step
+    getattr(self, inst.opname)(inst)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 342, in wrapper
+    return inner_fn(self, inst)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 965, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 474, in call_function
+    self.push(fn.call_function(self, args, kwargs))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 184, in call_function
+    tx.call_function(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 474, in call_function
+    self.push(fn.call_function(self, args, kwargs))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 244, in call_function
+    return tx.inline_user_function_return(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 510, in inline_user_function_return
+    result = InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1806, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1862, in inline_call_
+    tracer.run()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 576, in run
+    and self.step()
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 540, in step
+    getattr(self, inst.opname)(inst)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 342, in wrapper
+    return inner_fn(self, inst)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1002, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars.items)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 474, in call_function
+    self.push(fn.call_function(self, args, kwargs))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 184, in call_function
+    tx.call_function(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 474, in call_function
+    self.push(fn.call_function(self, args, kwargs))
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 203, in call_function
+    return wrap_fx_proxy(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 754, in wrap_fx_proxy
+    return wrap_fx_proxy_cls(
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 789, in wrap_fx_proxy_cls
+    example_value = get_fake_value(proxy.node, tx)
+  File "/projectnb/aclab/vraiti/env/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 1173, in get_fake_value
+    raise TorchRuntimeError() from e
+torch._dynamo.exc.TorchRuntimeError: 
+
+from user code:
+   File "/projectnb/aclab/vraiti/pckg/enformer-pytorch/enformer_pytorch/modeling_enformer.py", line 399, in <graph break in trunk_checkpointed>
+    x = self.stem(x)
+  File "/projectnb/aclab/vraiti/pckg/enformer-pytorch/enformer_pytorch/modeling_enformer.py", line 130, in forward
+    return self.fn(x, **kwargs) + x
+
+Set torch._dynamo.config.verbose=True for more information
+
+
+You can suppress this exception and fall back to eager by setting:
+    torch._dynamo.config.suppress_errors = True
+

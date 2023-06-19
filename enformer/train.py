@@ -87,7 +87,7 @@ train_obj = Trainer(
 	model = pred,
 	config = train_conf,
 	optimizer = optimizer,	
-	train_data = data
+	train_data = data,
     lr_scheduler = lr_scheduler
 )
 

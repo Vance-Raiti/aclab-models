@@ -1,16 +1,40 @@
 import torch
-import time
-from enformer_pytorch import Enformer, str_to_one_hot
+from enformer_pytorch import Enformer
 from enformer_pytorch.config_enformer import EnformerConfig
-import sys
-sys.path.append("/projectnb/aclab/datasets/dataloaders/dataloaders/basenji")
 from basenji import BasenjiDataset
-from torch.utils.data import DataLoader
 from filewriter import write
+from olltrainer.trainer import Trainer, Writer, TrainerConfig
 from torch.optim import Adam
+import time
+import wandb
 
-print("building model")
-device = "cuda" if torch.cuda.is_available() else "cpu"
+BATCH_SIZE = 1
+log_pth = "logs/test_write.out"
+
+class EnformerWriter(Writer):
+	def __init__(self):
+		self.running_loss = 0.0
+		self.it = 0
+		self.running_r = 0.0 #correlation coefficient
+		self.last_time = time.monotonic()
+		self.last_it = 0
+
+	def record(self,model_output):
+		self.running_loss += model_output['loss'].item()
+		self.it += 1
+		self.running_r += model_output['correlation_coefficient'].item()
+	
+	def write(self):
+		nits = self.it-self.last_it
+		msg = f"{self.it} -- avg loss: {self.running_loss/nits} avg r: {self.running_r/nits} it/sec: {nits*BATCH_SIZE/(time.monotonic()-self.last_time)}"
+		print(msg)
+		write(msg,log_pth)
+		
+		self.running_loss = 0.0
+		self.running_r = 0.0
+		self.last_time = time.monotonic()
+		self.last_it = self.it
+
 
 pred = Enformer.from_hparams(
 	dim = 1536,
@@ -18,48 +42,34 @@ pred = Enformer.from_hparams(
 	heads = 8,
 	output_heads = dict(human = 5313),
 	target_length = 896,
-	use_checkpointing=True
-	
+	use_checkpointing = True
 )
-pred = Enformer.from_pretrained('EleutherAI/enformer-official-rough',use_checkpointing=True)
-pred = pred.to(device)
-pred.eval()
-print("model built")
-#pred.load_state_dict(torch.load("/projectnb/aclab/vraiti/models/enformer/params200.pt"))
-print("model loaded")
+
+
+
 data = BasenjiDataset(
 	organism= "human",
-	split = "train",
+	split = "valid",
 	seq_length=114688
 )
 
-batch_size = 1
-dl = DataLoader(data,batch_size=batch_size,shuffle=False)
-last_time = time.monotonic()
-running_loss = 0.0
-running_coef = 0.0
-with torch.autocast(device):
-	for it, seq_dict in enumerate(dl):
-		bpstr = seq_dict['sequence'] #base pairs
-		x = str_to_one_hot(bpstr)
-		y = seq_dict['target']
-		x = x.to(device)
-		y = y.to(device)
-		ret = pred(
-			x=x,
-			target=y,
-			return_corr_coef=True,
-			head='human'
-		)
-		loss = ret['loss'].item()
-		coef = ret['corr_coef'].item()
-		running_coef += coef
-		running_loss += loss
-		if it%20==0:
-			msg = f"loss: {loss}, corr coef: {coef}, it/second: {batch_size/(time.monotonic()-last_time)}"
-			print(msg)
-			write("test.py.out",msg+"\n")
-			last_time = time.monotonic()
-msg = "avg corr coef: {running_loss/len(data)}"
-print(msg)
-write("test.py.out",msg+"\n")
+
+train_conf = TrainerConfig(
+	write_interval = 20
+    max_write_interval = 100,
+	save_interval = 1000,
+	batch_size = BATCH_SIZE,
+	writer = EnformerWriter(),
+    forward_targets = True,
+    use_model_loss = True,
+    epochs=5
+)
+
+train_obj = Trainer(
+	model = pred,
+	config = train_conf,
+	optimizer = optimizer,	
+	test_data = data
+)
+
+train_obj.train()

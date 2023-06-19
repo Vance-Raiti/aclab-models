@@ -14,9 +14,9 @@
 #specify a project
 #$ -P aclab
 
-#$ -o /projectnb/aclab/vraiti/models/enformer/job.out
+#$ -o /projectnb/aclab/vraiti/models/enformer/logs/job.out
 
-#$ -e /projectnb/aclab/vraiti/models/enformer/job.err
+#$ -e /projectnb/aclab/vraiti/models/enformer/logs/job.err
 
 cd /projectnb/aclab/vraiti
 source env.sh
